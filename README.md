@@ -1,10 +1,8 @@
 # Binance Portfolio Tracker
 
-Overview
+The Binance Portfolio Tracker is a tool for monitoring cryptocurrency investments on Binance. 
 
-The Binance Portfolio Tracker is a streamlined and user-friendly tool for monitoring cryptocurrency investments. It provides key insights, visualizations, and tracking features to help users stay informed about their portfolio performance.
-
-Features (Planned)
+### Features (Planned)
 
 - Dashboard
 
@@ -72,5 +70,5 @@ Features (Planned)
 
     - Provides historic tax reports based on selected year since account creation.
 
-Getting Started
+## Getting Started
 TBA
