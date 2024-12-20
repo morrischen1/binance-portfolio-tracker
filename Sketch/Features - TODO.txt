@@ -1,0 +1,34 @@
+Binance Portfolio Tracker
+
+1. Dashboard
+
+    Quick Stats: Show total portfolio value, profit/loss since first buy, and percentage change in a concise header
+
+2. Graphs
+
+    Keep the custom graph for showing total portfolio value
+    Default dropdown for owned cryptocurrencies
+
+3. List Views
+
+    Owed Cryptos:
+        Include filters for sorting by profit, wallet percentage, or alphabetical order
+        Show percentage change since buy in a tooltip or next to the value
+    Transaction History:
+        Keep basic filters like type (buy/sell)
+
+4. Orders
+
+    A simple list of placed orders, including price and amount
+
+5. Pie Chart
+
+    A static pie chart of your current portfolio distribution
+
+6. Simplicity & Performance
+
+    Local Storage: Avoid complex database setups by saving settings and preferences locally or using lightweight storage (SQLite)
+
+7. Tax Tracking Logic
+	
+    Tax Summary Section: Keep track of total tax owed to the government for current year. See historic tax reports based on selected year since account creation
