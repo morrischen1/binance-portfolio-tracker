@@ -1,6 +1,6 @@
 const path = require('path');
 require('dotenv').config({
-    path: path.resolve(__dirname, 'binance-portfolio-tracker\\backend\\src\\.env')});
+    path: path.resolve(__dirname, 'binance-portfolio-tracker/backend/src/.env')});
 
 module.exports = {
     port: process.env.PORT,
