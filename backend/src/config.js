@@ -6,7 +6,6 @@ module.exports = {
     port: process.env.PORT,
     binanceApiKey: process.env.BINANCE_API_KEY,
     binanceSecretKey: process.env.BINANCE_SECRET_KEY,
-    appApiKey: process.env.APP_API_KEY,
 };
 
 //console.log(process.env.PORT);
