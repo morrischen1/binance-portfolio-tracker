@@ -1,4 +1,4 @@
-const {calculatePerformance} = require('../services/performanceService');
+const {calculatePerformance} = require('../services/performanceService.js');
 
 exports.getPerformance = async(req, res, next) => {
     try{

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const config = require('../config/config');
+const config = require('../config.js');
 
 const BINANCE_BASE_URL = 'https://api.binance.com';
 

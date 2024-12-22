@@ -1,4 +1,4 @@
-const {syncTransactions} = require('../services/binanceService');
+const {syncTransactions} = require('../services/binanceService.js');
 
 exports.syncTransactions = async(req, res, next) => {
     try{

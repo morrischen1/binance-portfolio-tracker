@@ -1,4 +1,4 @@
-const {getBalances} = require('../services/binanceServices');
+const {getBalances} = require('../services/binanceServices.js');
 
 exports.getBalance = async(req, res, next) => {
     try{
