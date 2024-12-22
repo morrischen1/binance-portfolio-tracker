@@ -1,10 +1,9 @@
 module.exports = (req, res, next) => {
     const apikey = req.headers['x-api-key'];
-    if(!apikey || apikey !== config.appApikey){
-        return res.status(403).json({
-            success: false,
-            message: 'Forbidden'
-        });
+    if(apiKey === process.env.BINANCE_API_KEY){
+        next();
     }
-    next();
+    else{
+        res.status(403).json({ success: false, message: 'Unauthorized' });
+    }
 };
