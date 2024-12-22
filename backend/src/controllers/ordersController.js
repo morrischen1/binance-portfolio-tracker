@@ -7,7 +7,7 @@ exports.getOrders = async(req, res, next) => {
             success: true, 
             data: orders 
         });
-    } catch (error) {
+    } catch(error) {
         next(error);
     }
 };
