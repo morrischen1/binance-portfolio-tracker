@@ -1,5 +1,5 @@
 module.exports = (req, res, next) => {
-    const apikey = req.headers['x-api-key'];
+    const apiKey = req.headers['x-api-key'];
     if(apiKey === process.env.BINANCE_API_KEY){
         next();
     }
