@@ -9,7 +9,7 @@ const PerformanceChart = ({performance}) => {
                 label: 'Portfolio Value',
                 data: performance.values || [],
                 borderColor: 'blue',
-                backgroundColor: 'rgba(173, 216, 230, 0)',
+                backgroundColor: 'rgba(173, 216, 230, 0.2)',
 
             },
         ],
