@@ -29,3 +29,5 @@ const PerformanceChart = ({performance}) => {
         </section>
     );
 };
+
+export default PerformanceChart;

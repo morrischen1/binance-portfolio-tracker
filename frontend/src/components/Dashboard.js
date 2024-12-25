@@ -14,3 +14,5 @@ const Dashboard = ({balances, performance}) => {
         </section>
     );
 };
+
+export default Dashboard;
