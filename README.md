@@ -1,4 +1,4 @@
-# Binance Portfolio Tracker
+# Binance Portfolio Tracker (PROJECT PAUSED) 
 
 The Binance Portfolio Tracker is a tool for monitoring cryptocurrency investments on Binance. 
 
